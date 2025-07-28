@@ -1,0 +1,26 @@
+body{background-image:url("images/pexels-andreea-ch-371539-1166644.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover; }
+.portfolio{font-family: serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif; letter-spacing:5px;  color:#362A26; background-color: rgba(182, 142, 129, 0.3); border:none; border-style:hidden; border-radius: 10px; text-align:center; padding:5px; margin-left:500px; margin-right:500px; font-weight: 900px; font-size:50px;}
+.intro{ border-radius:10px;padding:5px; font-style:italic; font-family:serif; border:none; background-color: rgba(182, 142, 129, 0.3); border-style:hidden; }
+.title{display:flex; justify-content: center; flex-direction: column; text-align:center; align-items: center; margin: 1px;}
+.picture{height:350px; border:none; border-style:hidden; border-radius:300px; background-color: rgba(26, 25, 25, 0.3); padding:8px; }
+.pic{display:flex; justify-content: center; border:none; border-radius:10px; background-color: #1a191999; margin-left:530px; margin-right:530px; flex-direction: column; text-align:center; padding:10px; color:aliceblue}
+.description{ font-style:italic; font-size:13px; margin-bottom:20px;}
+.contacts{border:none; border-style:hidden; background-color: rgba(176, 142, 129, 0.6); border-radius:10px; display:flex; justify-content:center; flex-direction: column; color:#fef5da;}
+.info{border:none; border-style:hidden; background-color: rgba(182, 142, 129, 0.9); padding:4px; border-radius:10px; margin:10px}
+.info:hover{background-color:#362A26;}
+a{color:#fef5da;}
+.name{border:none; border-style:hidden; background-color: rgba(182, 142, 129, 0.6); padding:4px; border-radius:10px; margin:20px; color:#fef5da ;}
+.firsthobby{ width:200px; border:none; border-style:hidden; background-color: rgba(26, 25, 25, 0.3); border-radius:10px; padding:10px; }
+.hobbies{position:relative; left:500px; bottom:700px;background-color: #1a191999; padding:10px; display:flex; flex-direction: row; margin:0px 450px; border-radius:10px; }
+.read{ padding:10px;background-color: rgba(182, 142, 129, 0.6); color:white; display:flex;  border-radius:10px; flex-direction: column; align-items: center; text-align:center}
+.secondhobby{margin-top:50px;width:200px; border:none; border-style:hidden; background-color:  rgba(26, 25, 25, 0.3); border-radius:10px; padding:10px; }
+.gym{margin-left:10px;padding: 10px; background-color:rgba(182, 142, 129, 0.6); color:white; display:flex;  border-radius:10px; flex-direction: column;  align-items: center; text-align:center} 
+.skills{font-weight:1000;position:relative; bottom:700px; left:500px; text-align:center; margin-left:600px; margin-right:600px; padding:8px; border-radius:10px; color:#362A26 ;letter-spacing: 10px;  background-color: rgba(182, 142, 129, 0.3); }
+.twohob{color:#362A26; border:none; border-style:hidden; background-color: rgba(254, 245, 218, 0.7); padding:10px; border-radius:20px }
+.twodes{ color:#fef5da;background-color: rgba(182, 142, 129); border:none; border-radius:10px; border-style:hidden; padding:5px;}
+.skillsnimo{ position:relative; right:10px;bottom:1270px;padding:10px; margin-right:900px;border-radius:10px; border:none;  border-style:hidden; display:flex; flex-direction: row; align-items:center; background-color: #1a191999;}
+.lang{border-radius:20px; padding:5px; color:#fef5da; border:none; border-style:hidden;background-color:rgba(182, 142, 129, 0.6); padding:10px; }
+.code{ margin-bottom:50px;width:160px; border:none; border-style:hidden; border-radius: 10px; }
+.project{text-align:center;margin-left:10px;border-radius:20px; padding:5px; color:#fef5da; border:none; border-style:hidden;background-color:rgba(182, 142, 129, 0.6); padding:10px; }
+.ideaninako{width:150px; border:none; border-style:hidden; border-radius: 10px;}
+.hob{font-weight:1000;position:relative; bottom:1270px; right:500px; text-align:center; margin-left:600px; margin-right:600px; padding:8px; border-radius:10px; color:#362A26 ;letter-spacing: 10px;  background-color: rgba(182, 142, 129, 0.3);}
