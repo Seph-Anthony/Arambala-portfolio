@@ -1,26 +1,19 @@
-body{background-image:url("images/pexels-andreea-ch-371539-1166644.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover; }
-.portfolio{font-family: serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif; letter-spacing:5px;  color:#362A26; background-color: rgba(182, 142, 129, 0.3); border:none; border-style:hidden; border-radius: 10px; text-align:center; padding:5px; margin-left:500px; margin-right:500px; font-weight: 900px; font-size:50px;}
-.intro{ border-radius:10px;padding:5px; font-style:italic; font-family:serif; border:none; background-color: rgba(182, 142, 129, 0.3); border-style:hidden; }
-.title{display:flex; justify-content: center; flex-direction: column; text-align:center; align-items: center; margin: 1px;}
-.picture{height:350px; border:none; border-style:hidden; border-radius:300px; background-color: rgba(26, 25, 25, 0.3); padding:8px; }
-.pic{display:flex; justify-content: center; border:none; border-radius:10px; background-color: #1a191999; margin-left:530px; margin-right:530px; flex-direction: column; text-align:center; padding:10px; color:aliceblue}
-.description{ font-style:italic; font-size:13px; margin-bottom:20px;}
-.contacts{border:none; border-style:hidden; background-color: rgba(176, 142, 129, 0.6); border-radius:10px; display:flex; justify-content:center; flex-direction: column; color:#fef5da;}
-.info{border:none; border-style:hidden; background-color: rgba(182, 142, 129, 0.9); padding:4px; border-radius:10px; margin:10px}
-.info:hover{background-color:#362A26;}
-a{color:#fef5da;}
-.name{border:none; border-style:hidden; background-color: rgba(182, 142, 129, 0.6); padding:4px; border-radius:10px; margin:20px; color:#fef5da ;}
-.firsthobby{ width:200px; border:none; border-style:hidden; background-color: rgba(26, 25, 25, 0.3); border-radius:10px; padding:10px; }
-.hobbies{position:relative; left:500px; bottom:700px;background-color: #1a191999; padding:10px; display:flex; flex-direction: row; margin:0px 450px; border-radius:10px; }
-.read{ padding:10px;background-color: rgba(182, 142, 129, 0.6); color:white; display:flex;  border-radius:10px; flex-direction: column; align-items: center; text-align:center}
-.secondhobby{margin-top:50px;width:200px; border:none; border-style:hidden; background-color:  rgba(26, 25, 25, 0.3); border-radius:10px; padding:10px; }
-.gym{margin-left:10px;padding: 10px; background-color:rgba(182, 142, 129, 0.6); color:white; display:flex;  border-radius:10px; flex-direction: column;  align-items: center; text-align:center} 
-.skills{font-weight:1000;position:relative; bottom:700px; left:500px; text-align:center; margin-left:600px; margin-right:600px; padding:8px; border-radius:10px; color:#362A26 ;letter-spacing: 10px;  background-color: rgba(182, 142, 129, 0.3); }
-.twohob{color:#362A26; border:none; border-style:hidden; background-color: rgba(254, 245, 218, 0.7); padding:10px; border-radius:20px }
-.twodes{ color:#fef5da;background-color: rgba(182, 142, 129); border:none; border-radius:10px; border-style:hidden; padding:5px;}
-.skillsnimo{ position:relative; right:10px;bottom:1270px;padding:10px; margin-right:900px;border-radius:10px; border:none;  border-style:hidden; display:flex; flex-direction: row; align-items:center; background-color: #1a191999;}
-.lang{border-radius:20px; padding:5px; color:#fef5da; border:none; border-style:hidden;background-color:rgba(182, 142, 129, 0.6); padding:10px; }
-.code{ margin-bottom:50px;width:160px; border:none; border-style:hidden; border-radius: 10px; }
-.project{text-align:center;margin-left:10px;border-radius:20px; padding:5px; color:#fef5da; border:none; border-style:hidden;background-color:rgba(182, 142, 129, 0.6); padding:10px; }
-.ideaninako{width:150px; border:none; border-style:hidden; border-radius: 10px;}
-.hob{font-weight:1000;position:relative; bottom:1270px; right:500px; text-align:center; margin-left:600px; margin-right:600px; padding:8px; border-radius:10px; color:#362A26 ;letter-spacing: 10px;  background-color: rgba(182, 142, 129, 0.3);}
+body{background-image:url("images/pexels-andreea-ch-371539-1166644.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover; font-family:serif; padding:20px; box-sizing: border-box; margin:0;  }
+.portfolio{  margin: 0 auto 10px auto; font-family:serif; letter-spacing:5px; color:#362A26;  background-color: rgba(182, 142, 129, 0.3); border-radius:10px; border:none; padding:5px 10px; font-weight:900; font-size: 40px; max-width:500px; text-align:center; margin: auto auto;  }
+.introtext{font-family: serif; border:none; border-radius:10px; padding:5px; background-color: rgba(182, 142, 129, 0.3); max-width:700px; width:90%; text-align:center; margin: 20px auto auto } 
+.mainwrapper{display:flex; flex-wrap: wrap; justify-content: center; gap:30px; margin: 0 auto; padding: 20px 0; }
+.contentperbox{border-radius:10px; text-align:center; align-items: center; flex-direction: column; display:flex; padding:20px; background-color: rgba(26, 25, 25, 0.6); box-sizing: border-box;}
+.codelanguages, .projects{ color: #fef5da;margin: 0px auto 15px auto; border-radius:10px; background-color: rgba(182, 142, 129, 0.6); padding:20px;  box-sizing: border-box;}
+.codeimage,.projectimage{object-fit: cover; width:90%; height:270px; border-radius:10px;  background-color: rgba(26, 25, 25, 0.3); padding:8px; margin-bottom:15px; }
+.codeproject, .myprofile, .myhobbies{flex:1; min-width: 300px; max-width:400px}
+.profileimage{width:200px;   background-color: rgba(26, 25, 25, 0.3); padding:5px; border:none; border-style: hidden; border-radius:350px; margin-bottom:20px;}
+.description{color:#f4f4f4; font-family:serif; font-size:15px; margin-bottom:10px;  }
+.aboutme{box-sizing: border-box; border-radius: 10px; padding:15px; color: #fef5da; background-color: rgba(182, 142, 129, 0.6); margin-bottom: 100px; margin-top:20px; width:90%}
+.contact{box-sizing: border-box; border-radius:10px; padding:10px; color: #fef5da; background-color: rgba(182, 142, 129, 0.6); margin-bottom:10px; width:90% }
+.contactinfo{  background-color: rgba(182, 142, 129, 0.9); margin:10px 0px;  color: #fef5da; border-radius:10px; padding:10px; }
+.tomy{color: #fef5da;}
+.contactinfo:hover{ background-color: #362A26; }
+.reading, .gym{object-fit: cover; width:100%; height:270px; border-radius:10px;  background-color: rgba(26, 25, 25, 0.3); padding:8px; margin-bottom:15px; }
+.firsthobby, .secondhobby, .sk, .pr{background-color: rgba(202, 176, 167, 0.9); margin:10px 0px;  color: #f7f2e3; border-radius:10px; padding:10px; }
+.hobbyreading, .hobbygym{margin: 0px auto 15px auto; border-radius:10px; background-color: rgba(182, 142, 129, 0.6); padding:20px;  box-sizing: border-box;}
+.readingdescription, .gymdescription{color:#f7f2e3; }
